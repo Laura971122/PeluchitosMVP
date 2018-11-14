@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".buscar.view.BuscarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tBusqueda"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:id="@+id/eBuscar"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/buscar"
+        android:id="@+id/bBuscar"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCodigo"
+        android:hint="@string/codigo"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tNombre"
+        android:hint="@string/nombre"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCantidad"
+        android:hint="@string/cantidad"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tPrecio"
+        android:hint="@string/precio"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+
+
+</LinearLayout>
